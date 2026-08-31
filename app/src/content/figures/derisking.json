@@ -1,0 +1,25 @@
+{
+  "id": "figure-14-5",
+  "title": "The De-Risking Equation",
+  "leftTitle": "Risks taken off the table",
+  "rightTitle": "Value put on the table",
+  "rows": [
+    {
+      "risk": "Revenue inconsistency from wrong hires, non-performance or churn",
+      "value": "Pre-vetted, market-proven professionals from day one. No recruitment roulette"
+    },
+    {
+      "risk": "Rigid fixed costs and slow scaling in a fast-changing market",
+      "value": "A flexible pod model that scales with business needs, no fixed overheads"
+    },
+    {
+      "risk": "Unmanaged, unmeasured growth",
+      "value": "Milestone-driven growth with ownership and transparent reporting"
+    },
+    {
+      "risk": "Slow market entry",
+      "value": "Faster time to revenue via ready-to-deploy teams and proven GTM playbooks"
+    }
+  ],
+  "footerStrip": "Consistent · Successful · Ethical"
+}

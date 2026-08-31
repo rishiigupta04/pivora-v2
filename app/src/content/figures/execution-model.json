@@ -1,0 +1,50 @@
+{
+  "id": "figure-14-4",
+  "title": "The Execution Model",
+  "governance": {
+    "name": "Governance layer",
+    "contents": "Strategic alignment · Performance management · Quality control · Consistent best practices"
+  },
+  "pods": [
+    {
+      "name": "Client A pod",
+      "roles": [
+        "Sales",
+        "Presales",
+        "Solution Architect",
+        "Trainer"
+      ]
+    },
+    {
+      "name": "Client B pod",
+      "roles": [
+        "Sales",
+        "Presales",
+        "Solution Architect",
+        "Trainer"
+      ]
+    },
+    {
+      "name": "Client C pod",
+      "roles": [
+        "Sales",
+        "Presales",
+        "Solution Architect",
+        "Trainer"
+      ]
+    }
+  ],
+  "bench": {
+    "name": "Shared services bench",
+    "items": [
+      "Enterprise Architect",
+      "Product Evangelist",
+      "Delivery Transition",
+      "Sales Ops & Coord.",
+      "Marketing",
+      "Inside Sales Dev"
+    ],
+    "note": "Centralised senior expertise serving all client pods"
+  },
+  "caption": "Pod sizes are illustrative; the model scales up or down per client need."
+}

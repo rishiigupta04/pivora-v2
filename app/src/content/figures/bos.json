@@ -1,0 +1,46 @@
+{
+  "id": "figure-14-1",
+  "title": "The Built–Operate–Sustain Signature Model",
+  "phases": [
+    {
+      "phase": "BUILD",
+      "subLabel": "ARCHITECTURE",
+      "bullets": [
+        "Market & ICP",
+        "Value narrative",
+        "Account & partner plan",
+        "90-day plan"
+      ],
+      "objective": "Create the commercial architecture to enter or accelerate a platform in a specific market",
+      "scope": "Market and category assessment · ICP and account segmentation · product-market narrative · GTM strategy · pricing and commercial review · strategic account universe · GCC's and GSI's mapping · partner proposition · pipeline architecture · sales assets · 90-day operating plan",
+      "proof": "A documented GTM blueprint plus an executable account, partner and pipeline plan. An operating system for commercial execution, not a slide deck."
+    },
+    {
+      "phase": "OPERATE",
+      "subLabel": "TRACTION",
+      "bullets": [
+        "Executive access",
+        "Pipeline & deals",
+        "Partner activation",
+        "Lighthouse customers"
+      ],
+      "objective": "Work alongside platform leadership to create actual commercial traction",
+      "scope": "Strategic account pursuit · executive meetings · pipeline generation · partner activation · GCC's opportunity development · GSI's orchestration · deal strategy · weekly forecast cadence · lighthouse customer development · reference creation",
+      "proof": "Pipeline, qualified opportunities, executive relationships, active partners, customer wins, and a repeatable commercial rhythm."
+    },
+    {
+      "phase": "SUSTAIN",
+      "subLabel": "PARTNERSHIP",
+      "bullets": [
+        "Playbooks & coaching",
+        "Governance & dashboards",
+        "Value reviews & expansion",
+        "Client-owned GTM"
+      ],
+      "objective": "Keep the growth engine strengthening, expanding and increasingly client-owned",
+      "scope": "Customer trust & relationship depth · adoption & value realisation · continuous value reviews · expansion motions · quarterly GTM optimisation · playbooks · coaching · governance · partner scorecards · account planning · dashboards",
+      "proof": "A client-owned GTM capability that keeps strengthening and expanding — with Pivora engaged as strategic partner. Sustain is a continuing partnership, not a handover."
+    }
+  ],
+  "caption": "Reading left to right, client capability increases and the relationship shifts from execution to continuous strategic partnership."
+}

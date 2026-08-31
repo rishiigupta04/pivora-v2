@@ -1,0 +1,75 @@
+{
+  "id": "figure-24-1",
+  "title": "Career Timeline",
+  "nodes": [
+    {
+      "order": 1,
+      "organisation": "CMS Computers · Mahindra Networks · Openview Technologies",
+      "role": "Foundations",
+      "period": "1996–2005",
+      "indicative": true,
+      "verification": "Companies verified, dates to confirm"
+    },
+    {
+      "order": 2,
+      "organisation": "BMC Software",
+      "role": "India business build",
+      "period": "~2006–2012",
+      "indicative": true,
+      "verification": "Role verified, dates to confirm"
+    },
+    {
+      "order": 3,
+      "organisation": "AppDynamics",
+      "role": "Ground-zero build",
+      "period": "~2013–2016",
+      "indicative": true,
+      "verification": "Role verified, dates to confirm"
+    },
+    {
+      "order": 4,
+      "organisation": "Magic Software",
+      "role": "Vice President, India",
+      "period": "~2016–2017",
+      "indicative": true,
+      "verification": "Role verified, dates to confirm"
+    },
+    {
+      "order": 5,
+      "organisation": "Sprinklr",
+      "role": "Managing Director, India",
+      "period": "~2017–2020",
+      "indicative": true,
+      "verification": "Role verified, dates to confirm"
+    },
+    {
+      "order": 6,
+      "organisation": "OutSystems",
+      "role": "Regional Vice President, India",
+      "period": "2020–2023",
+      "indicative": false,
+      "verification": "Verified, ETHRWorld and CEO Insights India, Oct 2020"
+    },
+    {
+      "order": 7,
+      "organisation": "Sprinklr",
+      "role": "Vice President, India Market",
+      "period": "2023–2025",
+      "indicative": false,
+      "verification": "Verified, 2024 press appearances",
+      "infoAffordance": true,
+      "infoText": ""
+    },
+    {
+      "order": 8,
+      "organisation": "Pivora Consulting",
+      "role": "Founder & CEO",
+      "period": "2025 →",
+      "indicative": false,
+      "verification": "Founder-supplied",
+      "terminus": true,
+      "note": "Initial-stage engagement: ground-zero GTM for UnifyApps — Agentic AI for India enterprises and GCC's."
+    }
+  ],
+  "caption": "Date ranges marked indicative are to be confirmed. Company sequence and roles are verified against the OutSystems appointment announcement of October 2020 and 2023 to 2024 press appearances. Pivora terminus includes the current UnifyApps engagement (founder-supplied). Sources: verified register, rows 1 to 5."
+}

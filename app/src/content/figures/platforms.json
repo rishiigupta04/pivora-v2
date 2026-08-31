@@ -1,0 +1,67 @@
+{
+  "id": "figure-24-2",
+  "title": "Five Platforms, One Repeat Pattern",
+  "cards": [
+    {
+      "company": "BMC Software",
+      "eyebrow": "0 → 1 Build",
+      "scope": [
+        "India GTM strategy",
+        "Sales execution",
+        "Partner network",
+        "Customer success",
+        "Operations"
+      ],
+      "emphasis": "navy"
+    },
+    {
+      "company": "AppDynamics",
+      "eyebrow": "0 → 1 Build",
+      "scope": [
+        "India GTM strategy",
+        "Sales execution",
+        "Partner network",
+        "Customer success",
+        "Operations"
+      ],
+      "emphasis": "navy"
+    },
+    {
+      "company": "Magic Software",
+      "eyebrow": "Early India Leader",
+      "scope": [
+        "Country leadership",
+        "Market strategy",
+        "Sales execution",
+        "Partner ecosystem",
+        "Team build-out"
+      ],
+      "emphasis": "navy"
+    },
+    {
+      "company": "Sprinklr",
+      "eyebrow": "0 → 1 Build",
+      "scope": [
+        "India GTM strategy",
+        "Sales execution",
+        "Partner network",
+        "Customer success",
+        "Operations"
+      ],
+      "emphasis": "navy"
+    },
+    {
+      "company": "OutSystems",
+      "eyebrow": "Scale & Alliances",
+      "scope": [
+        "Strategic direction",
+        "Team growth",
+        "Clientele expansion",
+        "KPMG alliance 2023",
+        "Low-code evangelism"
+      ],
+      "emphasis": "gold"
+    }
+  ],
+  "footerStrip": "The repeat pattern: India business strategy · customer success · partner network · operations · sales execution"
+}

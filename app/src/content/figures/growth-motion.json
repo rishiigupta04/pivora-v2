@@ -1,0 +1,70 @@
+{
+  "id": "figure-14-2",
+  "title": "The Recommended Growth Motion",
+  "phases": [
+    {
+      "phase": "Product-led proof",
+      "emphasis": "navy",
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Product value",
+          "proves": "The platform does something a specific enterprise measurably needs"
+        },
+        {
+          "node": 2,
+          "name": "Business case",
+          "proves": "That need has a number attached to it, in the buyer’s own terms"
+        },
+        {
+          "node": 3,
+          "name": "Executive sponsor",
+          "proves": "Someone with budget authority owns the outcome"
+        }
+      ]
+    },
+    {
+      "phase": "Enterprise-led conversion",
+      "emphasis": "gold",
+      "nodes": [
+        {
+          "node": 4,
+          "name": "Lighthouse deployment",
+          "proves": "The platform works here, in this environment, at this account"
+        },
+        {
+          "node": 5,
+          "name": "Measured outcome",
+          "proves": "The pre-agreed success criteria were met and recorded"
+        },
+        {
+          "node": 6,
+          "name": "Reference",
+          "proves": "The customer will say so to a peer, on the record"
+        }
+      ]
+    },
+    {
+      "phase": "Ecosystem-led scale",
+      "emphasis": "navy",
+      "nodes": [
+        {
+          "node": 7,
+          "name": "Ecosystem leverage",
+          "proves": "GCC's and GSI's partners can carry the motion without Pivora present"
+        },
+        {
+          "node": 8,
+          "name": "Enterprise expansion",
+          "proves": "The footprint grows into adjacent workflows and business units"
+        },
+        {
+          "node": 9,
+          "name": "Global replication",
+          "proves": "The motion travels to the next market"
+        }
+      ]
+    }
+  ],
+  "readingRule": "A platform cannot skip a node. Attempting node 7 before node 5 is the most common and most expensive failure in enterprise platform GTM, because a partner asked to carry an unproven story will carry it once and then stop."
+}

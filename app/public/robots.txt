@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Domain pending §29.8 owner confirmation; update host at launch.
+Sitemap: https://pivora.com/sitemap.xml

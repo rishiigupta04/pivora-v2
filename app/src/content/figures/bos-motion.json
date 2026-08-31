@@ -1,0 +1,49 @@
+{
+  "id": "figure-5-1",
+  "title": "From Ground Zero to a Predictable Growth Motion",
+  "lead": "Every engagement runs the same disciplined arc — Build the architecture, Operate for traction, Sustain as a continuing partnership — so growth compounds quarter over quarter instead of resetting.",
+  "phases": [
+    {
+      "num": "01",
+      "phase": "BUILD",
+      "subLabel": "Architecture",
+      "tagline": "Architect the market entry before a single call is made.",
+      "bullets": [
+        "Market & ICP definition, value narrative, pricing review",
+        "Account, partner & pipeline architecture",
+        "GCC's & GSI's mapping and the partner proposition"
+      ],
+      "exit": "A documented GTM blueprint and a 90-day operating plan."
+    },
+    {
+      "num": "02",
+      "phase": "OPERATE",
+      "subLabel": "Traction",
+      "tagline": "Work the market alongside leadership until traction is real.",
+      "bullets": [
+        "Strategic account pursuit and executive access",
+        "Partner activation, GCC's opportunities, GSI's orchestration",
+        "Weekly forecast cadence and lighthouse customers"
+      ],
+      "exit": "Pipeline, qualified opportunities, active partners, first wins."
+    },
+    {
+      "num": "03",
+      "phase": "SUSTAIN",
+      "subLabel": "Partnership",
+      "tagline": "Strengthen and expand the engine — a continuing partnership, never a handover.",
+      "bullets": [
+        "Customer trust, adoption and value realisation",
+        "Continuous value reviews, optimisation and expansion",
+        "Playbooks, coaching and governance as client capability grows"
+      ],
+      "exit": "A client-owned capability that keeps compounding — with Pivora alongside as strategic partner."
+    }
+  ],
+  "curve": {
+    "startLabel": "Ground zero",
+    "endLabel": "Predictable, compounding growth",
+    "axisNote": "Reading left to right: client capability rises, and the relationship shifts from execution to continuous strategic partnership."
+  },
+  "caption": "The Build–Operate–Sustain motion turns ground-zero GTM into predictable, compounding growth. Sustain is a continuing partnership — not Build, Operate, Handover. Phase detail per the BOS signature model (Figure 14-1)."
+}

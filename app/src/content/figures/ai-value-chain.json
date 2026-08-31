@@ -1,0 +1,16 @@
+{
+  "id": "figure-12-1",
+  "title": "The AI Value Chain",
+  "eyebrow": "Value and revenue increase across the chain",
+  "stages": [
+    "AI signal",
+    "Enterprise pain",
+    "Value hypothesis",
+    "Use case and agent",
+    "Business case",
+    "Measured outcome",
+    "Lighthouse",
+    "Expansion"
+  ],
+  "caption": "Every AI service maps to a stage of this chain. No orphaned AI offerings."
+}

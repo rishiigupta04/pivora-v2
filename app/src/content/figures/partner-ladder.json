@@ -1,0 +1,43 @@
+{
+  "id": "figure-10-1",
+  "title": "The Partner Maturity Ladder",
+  "levels": [
+    {
+      "level": "L0",
+      "name": "Relationship only",
+      "definition": "Identify fit and executive sponsor"
+    },
+    {
+      "level": "L1",
+      "name": "Enabled",
+      "definition": "Train, position, create use-case understanding"
+    },
+    {
+      "level": "L2",
+      "name": "Active",
+      "definition": "Joint account mapping and pipeline creation"
+    },
+    {
+      "level": "L3",
+      "name": "Co-selling",
+      "definition": "Joint pursuits, executive engagement, deal orchestration"
+    },
+    {
+      "level": "L4",
+      "name": "Scaled",
+      "definition": "Repeatable solution, references, global replication"
+    }
+  ],
+  "scorecard": [
+    "Executive sponsor",
+    "Enabled resources",
+    "Named accounts",
+    "Joint pipeline",
+    "Opportunities created",
+    "Wins",
+    "Implementation capability",
+    "References",
+    "Global replication"
+  ],
+  "caption": "Track every partner against this ladder quarterly."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "figure-2-1",
+  "title": "The Pivora Strategic Hierarchy",
+  "steps": [
+    {
+      "step": 1,
+      "title": "Commercial problem",
+      "description": "We have a differentiated platform, but market entry and scale is not becoming repeatable enterprise revenue.",
+      "emphasis": "navy"
+    },
+    {
+      "step": 2,
+      "title": "Why Pivora",
+      "description": "Specialist operating experience in Enterprise B2B platform growth, India, GCC's and GSI's.",
+      "emphasis": "navy"
+    },
+    {
+      "step": 3,
+      "title": "Proof",
+      "description": "Ground-zero builds, verified experience, approved client outcomes and referenceability.",
+      "emphasis": "navy"
+    },
+    {
+      "step": 4,
+      "title": "How value is created",
+      "description": "Build the engine, operate for traction, transfer and sustain the capability.",
+      "emphasis": "navy"
+    },
+    {
+      "step": 5,
+      "title": "Next move",
+      "description": "A qualified executive conversation around one specific growth problem.",
+      "emphasis": "gold"
+    }
+  ]
+}

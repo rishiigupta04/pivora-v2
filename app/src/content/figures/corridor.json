@@ -1,0 +1,31 @@
+{
+  "id": "figure-2-2",
+  "title": "The Two-Way Growth Corridor",
+  "corridors": [
+    {
+      "direction": "left",
+      "label": "Global → India",
+      "role": "Primary growth corridor",
+      "bullets": [
+        "Market entry & GTM",
+        "Local traction & reference wins",
+        "Scale through India ecosystem"
+      ],
+      "route": "/growth-paths/global-to-india",
+      "linkLabel": "Explore Global → India"
+    },
+    {
+      "direction": "right",
+      "label": "India → Global",
+      "role": "Second growth corridor",
+      "bullets": [
+        "Build from India",
+        "Enter global markets",
+        "Leverage GCC's & GSI's ecosystem"
+      ],
+      "route": "/growth-paths/india-to-global",
+      "linkLabel": "Explore India → Global"
+    }
+  ],
+  "caption": "Two corridors: Global → India and India → Global. Both directions are visible above the fold; neither is a sub-page of the other."
+}

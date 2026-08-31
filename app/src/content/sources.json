@@ -1,0 +1,113 @@
+{
+  "s1": {
+    "claim": "Appointment as Regional VP, India, OutSystems; prior MD India at Sprinklr; VP India at Magic Software; tenures at AppDynamics, BMC Software, CMS Computers, Mahindra Networks, Openview Technologies",
+    "source": "ETHRWorld (Economic Times), appointment report",
+    "date": "Oct 2020",
+    "checked": "v7.0"
+  },
+  "s2": {
+    "claim": "Instrumental in setting up business for Sprinklr, AppDynamics and BMC Software; India strategy, customer success, partner network, operations, sales execution; deep relationships with Indian corporates, GSPs and GCC's",
+    "source": "CEO Insights India, OutSystems appointment release",
+    "date": "Oct 2020",
+    "checked": "v7.0"
+  },
+  "s3": {
+    "claim": "Mark Weaser (VP APAC, OutSystems) quotation on the appointment",
+    "source": "ETHRWorld / CEO Insights India",
+    "date": "Oct 2020",
+    "checked": "v7.0"
+  },
+  "s4": {
+    "claim": "KPMG in India and OutSystems alliance for low-code digital solutions",
+    "source": "KPMG in India, press release",
+    "date": "May 2023",
+    "checked": "v7.0"
+  },
+  "s5": {
+    "claim": "Vice President, India Market, Sprinklr: CX and generative-AI commentary and interviews",
+    "source": "ETCXPlus; Express Computer; Voice & Data; Digital Terminal",
+    "date": "2024",
+    "checked": "v7.0"
+  },
+  "s6": {
+    "claim": "India IT spending US$159.5B in 2025, up 8.7%",
+    "source": "Gartner, India IT spending forecast",
+    "date": "18 Nov 2025",
+    "checked": "Aug 2026"
+  },
+  "s7": {
+    "claim": "India IT spending forecast US$176.4B in 2026, up 10.6%",
+    "source": "Gartner, India IT spending forecast",
+    "date": "18 Nov 2025",
+    "checked": "Aug 2026",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2025-11-18-gartner-forecasts-india-it-spending-to-exceed-176-billion-us-dollars-in-2026"
+  },
+  "s8": {
+    "claim": "India software segment US$24.7B in 2026, up 17.6%",
+    "source": "Gartner, India IT spending forecast",
+    "date": "18 Nov 2025",
+    "checked": "Aug 2026"
+  },
+  "s9": {
+    "claim": "India IT services US$35.4B in 2026, up 11.1%",
+    "source": "Gartner, India IT spending forecast",
+    "date": "18 Nov 2025",
+    "checked": "Aug 2026"
+  },
+  "s10": {
+    "claim": "India data centre systems US$9.4B in 2026, up 20.5%",
+    "source": "Gartner, India IT spending forecast",
+    "date": "18 Nov 2025",
+    "checked": "Aug 2026"
+  },
+  "s11": {
+    "claim": "2,117 GCC's across 3,728 units in India; US$98.4B revenue FY2026; 2.36M professionals; 506 Forbes Global 2000 companies",
+    "source": "Nasscom–Zinnov, India GCC's Landscape 2026",
+    "date": "May 2026",
+    "checked": "Aug 2026",
+    "url": "https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-2026-report/"
+  },
+  "s12": {
+    "claim": "96% of GCC's established after FY2021 launched with a product or portfolio mandate",
+    "source": "Nasscom–Zinnov, India GCC's Landscape 2026",
+    "date": "May 2026",
+    "checked": "Aug 2026"
+  },
+  "s13": {
+    "claim": "64% of GCC's site leaders hold dual mandates combining global functional ownership with local responsibility",
+    "source": "Nasscom–Zinnov, India GCC's Landscape 2026",
+    "date": "May 2026",
+    "checked": "Aug 2026"
+  },
+  "s14": {
+    "claim": "1,200+ GCC's with embedded AI and ML capability; 250+ dedicated AI Centers of Excellence; approx. 250,000 AI professionals",
+    "source": "Nasscom–Zinnov, India GCC's Landscape 2026",
+    "date": "May 2026",
+    "checked": "Aug 2026"
+  },
+  "s15": {
+    "claim": "Indian technology industry revenue US$315B in FY2026, up 6.1%; exports US$246B; software products US$23B",
+    "source": "Nasscom, Technology Sector in India: Strategic Review 2026",
+    "date": "Feb 2026",
+    "checked": "Aug 2026"
+  },
+  "s16": {
+    "claim": "Nearly 75% of Indian enterprises experienced SaaS implementation delays; 57% average timeline overrun; 43% average cost overrun; ₹5.6 crore average loss in missed opportunity",
+    "source": "IDC, “State of SaaS Adoption in India” survey 2024, published by Zoho (n=240 enterprises, 1,000+ employees, SaaS implemented after 2020)",
+    "date": "Survey 2024, published Mar 2025",
+    "checked": "Aug 2026"
+  },
+  "s17": {
+    "claim": "Consequences reported: 67% increased costs, 53% digital transformation held back, 48% customer dissatisfaction, 46% missed revenue and opportunities",
+    "source": "IDC, “State of SaaS Adoption in India” survey 2024, published by Zoho",
+    "date": "Survey 2024, published Mar 2025",
+    "checked": "Aug 2026"
+  },
+  "s18": {
+    "claim": "India is the world’s fourth-largest economy on 2026 projections, at approximately US$4.5 trillion, behind Germany at approximately US$5.3 trillion",
+    "source": "IMF, World Economic Outlook datamapper, October 2025 projections for 2026",
+    "date": "Oct 2025",
+    "checked": "Aug 2026",
+    "url": "https://www.imf.org/external/datamapper/NGDPD@WEO/IND"
+  }
+}

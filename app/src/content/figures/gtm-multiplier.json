@@ -1,0 +1,39 @@
+{
+  "id": "figure-13-2",
+  "title": "The India GTM Multiplier",
+  "hub": [
+    "Pivora",
+    "India GTM Nucleus"
+  ],
+  "loops": [
+    {
+      "loop": 1,
+      "mechanic": "GCC's win → global rollout",
+      "says": "A GCC's win travels into the parent’s global footprint",
+      "basis": "evidenced"
+    },
+    {
+      "loop": 2,
+      "mechanic": "GSI's partnership → pipeline",
+      "says": "GSI's carry the platform into large transformation programmes",
+      "basis": "evidenced"
+    },
+    {
+      "loop": 3,
+      "mechanic": "Lighthouse → global reference",
+      "says": "A marquee India win becomes proof for global sales conversations",
+      "basis": "strategy"
+    },
+    {
+      "loop": 4,
+      "mechanic": "India feedback → global R&D",
+      "says": "Demanding India use cases sharpen the global roadmap",
+      "basis": "strategy"
+    }
+  ],
+  "legend": {
+    "evidenced": "Evidenced mechanic",
+    "strategy": "Strategy, not statistic"
+  },
+  "caption": "Why an India win is not a local win. Solid borders mark evidenced mechanics; dashed borders mark strategy, not statistics."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "figure-13-1",
+  "title": "The Execution Gap",
+  "sourceId": "s16",
+  "sourceIdB": "s17",
+  "setA": {
+    "title": "What went wrong",
+    "bars": [
+      {
+        "metric": "Enterprises that experienced implementation delays",
+        "value": 75,
+        "prefix": "~",
+        "unit": "%"
+      },
+      {
+        "metric": "Average timeline overrun",
+        "value": 57,
+        "prefix": "",
+        "unit": "%"
+      },
+      {
+        "metric": "Average cost overrun",
+        "value": 43,
+        "prefix": "",
+        "unit": "%"
+      }
+    ]
+  },
+  "setALoss": {
+    "metric": "Average loss in missed business opportunity",
+    "value": "₹5.6 crore"
+  },
+  "setB": {
+    "title": "What it cost the business",
+    "bars": [
+      {
+        "metric": "Increased costs from extended timelines",
+        "value": 67,
+        "unit": "%"
+      },
+      {
+        "metric": "Digital transformation progress held back",
+        "value": 53,
+        "unit": "%"
+      },
+      {
+        "metric": "Customer dissatisfaction",
+        "value": 48,
+        "unit": "%"
+      },
+      {
+        "metric": "Missed business revenue and opportunities",
+        "value": 46,
+        "unit": "%"
+      }
+    ]
+  },
+  "sourceLine": "IDC, “State of SaaS Adoption in India” survey 2024, published by Zoho, March 2025. n=240 Indian enterprises with 1,000+ employees that implemented SaaS after 2020."
+}

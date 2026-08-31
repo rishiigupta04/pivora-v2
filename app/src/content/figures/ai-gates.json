@@ -1,0 +1,52 @@
+{
+  "id": "figure-12-2",
+  "title": "The AI Qualification Gate",
+  "gates": [
+    "Strategic problem?",
+    "Material value?",
+    "Platform differentiation?",
+    "Enterprise buyer?",
+    "Measurable outcome?",
+    "Pivora fit?"
+  ],
+  "noLabel": "No · Stop",
+  "closeBar": "Any “no” ends the conversation · All yes → Proceed",
+  "decisionTable": [
+    {
+      "request": "Generic AI developers or staffing",
+      "decision": "No",
+      "reason": "Commodity"
+    },
+    {
+      "request": "Generic chatbot implementation",
+      "decision": "No",
+      "reason": "Unless it is a strategic platform wedge with quantified value"
+    },
+    {
+      "request": "AI opportunity mapping for an Enterprise B2B platform",
+      "decision": "Yes",
+      "reason": "Strategic, value-led"
+    },
+    {
+      "request": "AI product packaging and enterprise business case",
+      "decision": "Yes",
+      "reason": "Commercialisation of differentiated capability"
+    },
+    {
+      "request": "Agentic workflow GTM for a differentiated platform",
+      "decision": "Yes",
+      "reason": "Creates an enterprise wedge"
+    },
+    {
+      "request": "AI pilot-to-production adoption architecture",
+      "decision": "Yes",
+      "reason": "Drives a measurable enterprise outcome"
+    },
+    {
+      "request": "AI GCC's/GSI's ecosystem strategy",
+      "decision": "Yes",
+      "reason": "Ecosystem-led scale"
+    }
+  ],
+  "caption": "Six questions, any one of which ends a commercial conversation."
+}

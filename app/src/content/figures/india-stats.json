@@ -1,0 +1,37 @@
+{
+  "id": "figure-25-1",
+  "title": "The India Opportunity",
+  "tiles": [
+    {
+      "figure": "US$176.4B",
+      "label": "India IT spending forecast for 2026, up 10.6%",
+      "sourceId": "s7"
+    },
+    {
+      "figure": "US$24.7B",
+      "label": "India software segment in 2026, up 17.6%, the fastest-growing segment",
+      "sourceId": "s8"
+    },
+    {
+      "figure": "US$35.4B",
+      "label": "India IT services in 2026, up 11.1%",
+      "sourceId": "s9"
+    },
+    {
+      "figure": "2,117",
+      "label": "Global Capability Centers in India, across 3,728 units",
+      "sourceId": "s11"
+    },
+    {
+      "figure": "US$98.4B",
+      "label": "GCC's revenue in FY2026, with 2.36M professionals employed",
+      "sourceId": "s11"
+    },
+    {
+      "figure": "96%",
+      "label": "of GCC's set up after FY2021 launched with a product or portfolio mandate",
+      "sourceId": "s12"
+    }
+  ],
+  "context": "India is the world’s fourth-largest economy on 2026 projections, at approximately US$4.5 trillion (IMF World Economic Outlook, October 2025 projections). The Indian technology industry reached US$315 billion in FY2026, of which software products account for US$23 billion (Nasscom Strategic Review 2026)."
+}

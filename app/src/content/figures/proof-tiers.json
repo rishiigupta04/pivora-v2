@@ -1,0 +1,48 @@
+{
+  "id": "figure-15-1",
+  "title": "Proof Architecture",
+  "standfirst": "A CRO needs evidence before methodology. Proof is not a footer section.",
+  "tiers": [
+    {
+      "tier": 1,
+      "name": "Founder operating evidence",
+      "description": "Three decades, ground-zero India GTM builds, verified roles and ecosystem depth",
+      "status": "Populated",
+      "rule": "Every claim traceable to the verified source register",
+      "note": ""
+    },
+    {
+      "tier": 2,
+      "name": "Client outcomes",
+      "description": "Named only with approval. Metrics must be real and verifiable",
+      "status": "Pending",
+      "rule": "Named only with written approval. Metrics must be real and verifiable",
+      "note": "Pending — named client outcomes publish only with written client approval and verifiable metrics."
+    },
+    {
+      "tier": 3,
+      "name": "Anonymised case patterns",
+      "description": "Category → challenge → action → measurable outcome. Clearly labelled",
+      "status": "Pending",
+      "rule": "Clearly labelled as anonymised",
+      "note": "Pending — anonymised patterns publish when engagements complete and outcomes can be verified."
+    },
+    {
+      "tier": 4,
+      "name": "Third-party validation",
+      "description": "Press, appointments, alliances and selected external coverage",
+      "status": "Populated",
+      "rule": "Linked to source",
+      "note": ""
+    },
+    {
+      "tier": 5,
+      "name": "Methodology transparency",
+      "description": "When client proof is restricted: cadence, governance, deliverables and transfer",
+      "status": "Populated",
+      "rule": "The honest substitute, never the disguise",
+      "note": ""
+    }
+  ],
+  "statusLine": "Tier 1 is fully populated today. Tier 4 is populated. Tiers 2 and 3 are pending real engagements. Tier 5 carries the weight in the meantime."
+}
