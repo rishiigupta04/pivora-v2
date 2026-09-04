@@ -42,8 +42,6 @@
   ],
   "curve": {
     "startLabel": "Ground zero",
-    "endLabel": "Predictable, compounding growth",
-    "axisNote": "Reading left to right: client capability rises, and the relationship shifts from execution to continuous strategic partnership."
-  },
-  "caption": "The Build–Operate–Sustain motion turns ground-zero GTM into predictable, compounding growth. Sustain is a continuing partnership — not Build, Operate, Handover. Phase detail per the BOS signature model (Figure 14-1)."
+    "endLabel": "Predictable, compounding growth"
+  }
 }

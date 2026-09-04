@@ -67,13 +67,10 @@ export default function PlatformGrowth() {
         </Reveal>
         <div className="mt-12">
           <GrowthMotionFigure />
-          <p className="mt-4 max-w-3xl text-[13.5px] leading-relaxed text-greytext">
-            Figure 14-2 · The Recommended Growth Motion. Select any node for what it proves and the outcome it produces.
-          </p>
         </div>
       </Section>
       {/* Block 4 · Operating-model fit — the ramp and its gates */}
-      <Section eyebrow="Figure 14-3" title="The ramp, and its gates">
+      <Section eyebrow="The Ramp" title="The ramp, and its gates">
         <PlatformRampFigure />
         <p className="mt-6 max-w-3xl text-[14.5px] leading-relaxed text-greytext">
           Stage 0 is a genuine qualification gate. Pivora declines platforms that fail it.

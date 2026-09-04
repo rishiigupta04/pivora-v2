@@ -42,12 +42,8 @@ export default function BuiltOperateSustain() {
         </div>
       </section>
       {/* Block 3 · Approach — Figure 14-1 */}
-      <Section eyebrow="Figure 14-1" title="The signature model, in three phases" tone="grey">
+      <Section eyebrow="The Operating Model" title="The signature model, in three phases" tone="grey">
         <BOSFigure />
-        <p className="mt-6 max-w-3xl text-[14.5px] leading-relaxed text-greytext">
-          Reading left to right, client capability increases and the relationship shifts from execution to continuous
-          strategic partnership. Open each phase for its objective, scope, and proof of completion.
-        </p>
       </Section>
       {/* Block 4 · Operating-model fit — client-facing operational language */}
       <Section eyebrow="Operating-model fit" title="What the client sees, phase by phase">
@@ -67,7 +63,7 @@ export default function BuiltOperateSustain() {
         {/* Figure 14-2 · Land and Expand — the account-level motion inside BOS */}
         <Reveal>
           <div id="land-and-expand" className="mt-12 scroll-mt-24 border-t border-line pt-10">
-            <p className="eyebrow">Figure 14-2 · How growth continues</p>
+            <p className="eyebrow">How growth continues</p>
             <h3 className="mt-3 max-w-3xl font-head text-2xl font-semibold leading-snug tracking-tight text-navy md:text-[28px]">
               Land and expand: the first win is the beginning.
             </h3>

@@ -13,12 +13,10 @@ export default function Proof() {
       <PageHero eyebrow="Proof" title="Evidence before persuasion." lede="A CRO evaluating a growth partner needs evidence before methodology. Proof is not a footer section." />
 
       {/* Block 3 · Approach — Figure 15-1, five tiers, honest population */}
-      <Section eyebrow="Figure 15-1" title="Five tiers, ranked by strength">
+      <Section eyebrow="Proof Architecture" title="Five tiers, ranked by strength">
+        {/* Audit C9: the note that stood here restated the figure's own status
+            line and the Populated/Pending badges printed on every tier. */}
         <ProofTiersFigure />
-        <p className="mt-6 max-w-3xl text-[14.5px] leading-relaxed text-greytext">
-          Tier 1 is fully populated today. Tier 4 is populated. Tiers 2 and 3 are pending real engagements. Tier 5 carries
-          the weight in the meantime — and this page says so rather than pretending otherwise.
-        </p>
       </Section>
 
       {/* Founder evidence anchor (nav target) */}

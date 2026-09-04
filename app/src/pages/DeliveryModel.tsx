@@ -38,7 +38,7 @@ export default function DeliveryModel() {
         </div>
       </section>
       {/* Block 3 · Approach — Figure 14-4 */}
-      <Section eyebrow="Figure 14-4" title="Who does the work, and how it is governed" tone="grey">
+      <Section eyebrow="The Execution Model" title="Who does the work, and how it is governed" tone="grey">
         <ExecutionModelFigure />
       </Section>
       <BOSFit
@@ -49,7 +49,7 @@ export default function DeliveryModel() {
         ]}
       />
       {/* Block 5 · Outcomes — Figure 14-5 */}
-      <Section eyebrow="Figure 14-5" title="The De-Risking Equation">
+      <Section eyebrow="Risk" title="The De-Risking Equation">
         <DeRiskingFigure />
       </Section>
       {/* Block 6 · Client commitments — published openly */}

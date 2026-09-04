@@ -8,7 +8,9 @@ export default defineConfig({
   base: '/',
   plugins: [inspectAttr(), react()],
   server: {
-    port: 3000,
+    // Honour an assigned PORT when one is provided (preview harnesses hand the
+    // port over this way), otherwise keep the project's usual 3000.
+    port: Number(process.env.PORT) || 3000,
   },
   resolve: {
     alias: {

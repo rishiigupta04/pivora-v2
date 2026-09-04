@@ -9,7 +9,18 @@ import { animate, useInView, useReducedMotion } from "framer-motion"
  * suffixes and separators exactly as authored. No value is ever reformatted, so
  * a figure cannot be changed by the animation.
  *
- * Under prefers-reduced-motion it renders the final value immediately.
+ * CREDIBILITY GUARD. Every stat on this site is a sourced figure a buyer may
+ * screenshot, so a half-counted number left on screen is a wrong number
+ * published. Three rules enforce that it cannot happen:
+ *
+ *   1. The resting value is always the real figure. The count starts from zero
+ *      only once the animation actually begins.
+ *   2. A timer independent of requestAnimationFrame snaps to the authored
+ *      string when the count should have finished. framer's animate() is
+ *      rAF-driven, and rAF stalls in a background or throttled tab — which
+ *      leaves the count frozen part-way and never fires onComplete.
+ *   3. The full value is always present in the accessibility tree, so assistive
+ *      technology never reads a partial figure.
  */
 
 type Parsed =
@@ -36,7 +47,7 @@ function parse(value: string): Parsed {
 
 export function CountUp({
   value,
-  duration = 0.9,
+  duration = 0.7,
   className,
 }: {
   value: string
@@ -48,15 +59,14 @@ export function CountUp({
   const reduced = useReducedMotion()
   const p = useMemo(() => parse(value), [value])
 
-  // The resting value is always the real figure, never zero. The count starts
-  // from zero only once the animation actually begins, so a stat can never be
-  // left reading "0" — not under reduced motion, not if the observer never
-  // fires, not in a screenshot taken before the element scrolls in.
   const willAnimate = p.ok && !reduced
   const [shown, setShown] = useState(() => (p.ok ? p.numeric : ""))
 
   useEffect(() => {
     if (!p.ok || !willAnimate || !inView) return
+
+    const settle = () => setShown(p.numeric)
+
     const controls = animate(0, p.target, {
       duration,
       ease: [0.22, 1, 0.36, 1],
@@ -73,9 +83,23 @@ export function CountUp({
       },
       // Snap to the authored string so the rendered figure is byte-identical
       // to the source, never a re-formatted approximation of it.
-      onComplete: () => setShown(p.numeric),
+      onComplete: settle,
     })
-    return () => controls.stop()
+
+    // Backstop: rAF can stall (hidden tab, throttled renderer) and leave the
+    // count frozen part-way with onComplete never firing. setTimeout is not
+    // rAF-driven, so this always lands the true value.
+    const backstop = window.setTimeout(() => {
+      controls.stop()
+      settle()
+    }, duration * 1000 + 250)
+
+    return () => {
+      window.clearTimeout(backstop)
+      controls.stop()
+      // Never leave a partial figure behind if this unmounts mid-count.
+      settle()
+    }
   }, [p, willAnimate, inView, duration])
 
   if (!p.ok) return <span className={className}>{value}</span>

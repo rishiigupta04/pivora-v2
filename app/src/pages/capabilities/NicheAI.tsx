@@ -79,14 +79,14 @@ export default function NicheAI() {
         </Reveal>
       </Section>
       {/* Figure 12-1 · AI Value Chain */}
-      <Section eyebrow="Figure 12-1" title="Where AI changes enterprise outcomes">
+      <Section eyebrow="The AI Value Chain" title="Where AI changes enterprise outcomes">
         <AIValueChainFigure />
         <p className="mt-6 max-w-3xl text-[14.5px] leading-relaxed text-greytext">
           Every service above maps to a stage of this chain. No orphaned AI offerings.
         </p>
       </Section>
       {/* Figure 12-2 · AI Qualification Gate + published decision table */}
-      <Section eyebrow="Figure 12-2" title="The AI Qualification Gate" tone="grey">
+      <Section eyebrow="Qualification" title="The AI Qualification Gate" tone="grey">
         <AIGatesFigure />
         <div className="mt-10">
           <Reveal>

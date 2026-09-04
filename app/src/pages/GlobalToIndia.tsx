@@ -103,7 +103,7 @@ export default function GlobalToIndia() {
         ]}
       />
       {/* Figure 13-2 · The India GTM Multiplier */}
-      <Section eyebrow="Figure 13-2" title="Why an India win is not a local win">
+      <Section eyebrow="The India Multiplier" title="Why an India win is not a local win">
         <GTMMultiplierFigure />
         <p className="mt-6 max-w-3xl text-[14.5px] leading-relaxed text-greytext">
           A GCC's win can travel to the global parent; a GSI's win can travel to the partner’s global accounts; an enterprise

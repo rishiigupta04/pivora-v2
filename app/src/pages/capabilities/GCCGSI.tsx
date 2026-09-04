@@ -153,7 +153,7 @@ export default function GCCGSI() {
         ]}
       />
       {/* Figure 10-1 · Partner Maturity Ladder */}
-      <Section title="The Partner Maturity Ladder" eyebrow="Figure 10-1">
+      <Section title="The Partner Maturity Ladder" eyebrow="Partner Motion">
         <PartnerLadderFigure />
         <p className="mt-6 max-w-3xl text-[14.5px] leading-relaxed text-greytext">
           Five rungs from L0 Relationship Only to L4 Scaled. Every partner is tracked against it quarterly, and movement

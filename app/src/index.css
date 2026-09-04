@@ -144,20 +144,131 @@
   .prose-lede {
     @apply text-[17px] leading-[1.75] text-greytext md:text-[18px];
   }
+
+  /* --- Detail ---------------------------------------------------------------
+     Small marks that read as "designed" rather than "templated". Used
+     sparingly — depth applied everywhere stops reading as depth. */
+
+  /* A hairline inset ring, echoing the ring treatment in CorridorFigure and
+     FlywheelFigure. Parent needs `relative`. */
+  .ring-inset-hair::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    border-radius: inherit;
+    border: 1px solid rgb(200 161 90 / 0.22);
+    pointer-events: none;
+  }
+
+  /* Card that reveals a gold hairline on hover — the accent is an interaction
+     state, not decoration, so gold stays reserved. */
+  .card-glow {
+    @apply relative transition-[border-color,box-shadow] duration-200;
+  }
+  .card-glow:hover {
+    @apply border-gold/45 shadow-e2;
+  }
+
+  /* Corner tick — two 1px strokes marking a panel's top-left. */
+  .corner-tick::before,
+  .corner-tick::after {
+    content: "";
+    position: absolute;
+    background: var(--pivora-gold);
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  .corner-tick::before {
+    top: 0;
+    left: 0;
+    width: 22px;
+    height: 1px;
+  }
+  .corner-tick::after {
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 22px;
+  }
+
+  /* Section rhythm: figures need room around them to read as considered
+     moments rather than slotted-in charts. */
+  .band {
+    @apply py-16 md:py-24;
+  }
+  .band-tight {
+    @apply py-12 md:py-16;
+  }
+  /* --- Buttons -------------------------------------------------------------
+     Each carries a sheen that sweeps across once on hover. The sweep is a
+     translucent white highlight, so it lightens rather than tints — the
+     underlying colour, and therefore the contrast ratio, is unchanged. */
+  .btn-sheen {
+    @apply relative overflow-hidden isolate;
+  }
+  .btn-sheen::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(
+      105deg,
+      transparent 35%,
+      rgb(255 255 255 / 0.22) 50%,
+      transparent 65%
+    );
+    transform: translateX(-110%);
+    transition: transform 0.55s cubic-bezier(0.33, 1, 0.68, 1);
+  }
+  .btn-sheen:hover::after {
+    transform: translateX(110%);
+  }
+
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-[10px] bg-gold px-6 py-3.5 font-display text-[14.5px] font-bold text-navy transition-colors hover:bg-gold-dark hover:text-white;
+    @apply btn-sheen inline-flex items-center justify-center gap-2 rounded-[10px] bg-gold bg-gold-sheen px-6 py-3.5 font-display text-[14.5px] font-bold text-navy shadow-e1 transition-[background-color,color,box-shadow] duration-200 hover:bg-gold-dark hover:bg-none hover:text-white hover:shadow-e2;
   }
   .btn-navy {
-    @apply inline-flex items-center justify-center gap-2 rounded-[10px] bg-navy px-6 py-3.5 font-display text-[14.5px] font-bold text-white transition-colors hover:bg-navy-light;
+    @apply btn-sheen inline-flex items-center justify-center gap-2 rounded-[10px] bg-navy bg-navy-depth px-6 py-3.5 font-display text-[14.5px] font-bold text-white shadow-e1 transition-[background-color,box-shadow] duration-200 hover:bg-navy-light hover:bg-none hover:shadow-e2;
   }
   .btn-outline-light {
-    @apply inline-flex items-center justify-center gap-2 rounded-[10px] border border-white/60 px-6 py-3.5 font-display text-[14.5px] font-bold text-white transition-colors hover:border-gold hover:text-gold;
+    @apply btn-sheen inline-flex items-center justify-center gap-2 rounded-[10px] border border-white/60 px-6 py-3.5 font-display text-[14.5px] font-bold text-white transition-colors duration-200 hover:border-gold hover:bg-white/5 hover:text-gold;
+  }
+
+  /* --- Links ---------------------------------------------------------------
+     A gold rule that sweeps in from the left on hover instead of a static
+     underline. Drawn as a background layer so it animates without shifting
+     the text baseline. */
+  .link-sweep {
+    background-image: linear-gradient(var(--pivora-gold), var(--pivora-gold));
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    transition: background-size 0.28s cubic-bezier(0.22, 1, 0.36, 1), color 0.2s;
+    padding-bottom: 3px;
+  }
+  .link-sweep:hover,
+  .link-sweep:focus-visible {
+    background-size: 100% 2px;
   }
   .text-link {
-    @apply inline-flex items-center gap-1.5 font-display text-[14px] font-bold text-navy underline decoration-gold decoration-2 underline-offset-4 transition-colors hover:text-gold-dark;
+    @apply link-sweep inline-flex items-center gap-1.5 font-display text-[14px] font-bold text-navy hover:text-gold-dark;
   }
   .text-link-light {
-    @apply inline-flex items-center gap-1.5 font-display text-[14px] font-bold text-white underline decoration-gold decoration-2 underline-offset-4 transition-colors hover:text-gold;
+    @apply link-sweep inline-flex items-center gap-1.5 font-display text-[14px] font-bold text-white hover:text-gold;
+  }
+  /* Nav and footer links: rule grows from nothing, so the hover reads as an
+     action rather than a permanent underline. */
+  .link-grow {
+    background-image: linear-gradient(var(--pivora-gold), var(--pivora-gold));
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 0% 1.5px;
+    transition: background-size 0.28s cubic-bezier(0.22, 1, 0.36, 1), color 0.2s;
+    padding-bottom: 2px;
+  }
+  .link-grow:hover,
+  .link-grow:focus-visible {
+    background-size: 100% 1.5px;
   }
   .field-label {
     @apply mb-1.5 block font-display text-[13px] font-bold text-navy;

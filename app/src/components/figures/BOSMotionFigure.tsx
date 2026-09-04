@@ -27,13 +27,13 @@ export default function BOSMotionFigure({ id = "bos-motion", caption }: { id?: s
     <Figure
       id={id}
       title={data.title}
-      caption={caption ?? data.caption}
+      caption={caption}
       altList={[
         ...data.phases.map(
           (p) =>
             `${p.num}. ${p.phase} (${p.subLabel}): ${p.tagline} Includes: ${p.bullets.join("; ")}. Exit state: ${p.exit}`
         ),
-        `Growth curve: ${data.curve.startLabel} rising to ${data.curve.endLabel}. ${data.curve.axisNote}`,
+        `Growth curve: ${data.curve.startLabel} rising to ${data.curve.endLabel}.`,
       ]}
     >
       {/* Phase cards — desktop row with connectors, mobile vertical stack */}
@@ -191,7 +191,6 @@ export default function BOSMotionFigure({ id = "bos-motion", caption }: { id?: s
             {data.curve.endLabel}
           </text>
         </svg>
-        <p className="mt-2 text-center text-[12px] text-greytext">{data.curve.axisNote}</p>
       </div>
     </Figure>
   );

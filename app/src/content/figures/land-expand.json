@@ -3,11 +3,26 @@
   "title": "Land and Expand: How Growth Continues",
   "message": "The first enterprise win is the beginning of the customer relationship, not the end.",
   "steps": [
-    { "step": "Land", "line": "Win the first strategic account — right-sized, high-trust, referenceable." },
-    { "step": "Implement", "line": "Deliver the first deployment to a visible, measurable standard." },
-    { "step": "Prove Value", "line": "Make the business case real — outcomes the customer's own leadership can verify." },
-    { "step": "Expand", "line": "Grow across divisions, geographies and use cases, from proven value." },
-    { "step": "Sustain", "line": "Keep value compounding: continuous reviews, optimisation and renewal." }
+    {
+      "step": "Land",
+      "line": "Win the first strategic account — right-sized, high-trust, referenceable."
+    },
+    {
+      "step": "Implement",
+      "line": "Deliver the first deployment to a visible, measurable standard."
+    },
+    {
+      "step": "Prove Value",
+      "line": "Make the business case real — outcomes the customer's own leadership can verify."
+    },
+    {
+      "step": "Expand",
+      "line": "Grow across divisions, geographies and use cases, from proven value."
+    },
+    {
+      "step": "Sustain",
+      "line": "Keep value compounding: continuous reviews, optimisation and renewal."
+    }
   ],
-  "caption": "Land and expand is the account-level motion inside every Build–Operate–Sustain engagement: the first win funds the proof, the proof funds the expansion, and expansion deepens the partnership."
+  "caption": "The first win funds the proof, the proof funds the expansion, and expansion deepens the partnership."
 }

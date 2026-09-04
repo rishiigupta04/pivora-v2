@@ -24,7 +24,6 @@ export function CorridorFigure({ className }: { className?: string }) {
     <Figure
       id={data.id}
       title={data.title}
-      caption={data.caption}
       altList={data.corridors.map(
         (c) => `${c.label} (${c.role}): ${c.bullets.join("; ")}`
       )}

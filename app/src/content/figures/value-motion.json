@@ -2,12 +2,23 @@
   "id": "figure-12-3",
   "title": "The Value-Led Services Motion",
   "steps": [
-    { "step": "Define Value", "line": "Quantify the enterprise problem and what solving it is worth — before anything is positioned or sold." },
-    { "step": "Deliver Value", "line": "Apply the right specialist capability — solution sales, pre-sales, solution architecture, business value — to the specific pursuit." },
-    { "step": "Realise Value", "line": "Drive adoption and measure against the business case, so value is visible to the customer's own leadership." },
-    { "step": "Expand Value", "line": "Let proven value fund the next use case, the next division, the next market." }
+    {
+      "step": "Define Value",
+      "line": "Quantify the enterprise problem and what solving it is worth — before anything is positioned or sold."
+    },
+    {
+      "step": "Deliver Value",
+      "line": "Apply the right specialist capability — solution sales, pre-sales, solution architecture, business value — to the specific pursuit."
+    },
+    {
+      "step": "Realise Value",
+      "line": "Drive adoption and measure against the business case, so value is visible to the customer's own leadership."
+    },
+    {
+      "step": "Expand Value",
+      "line": "Let proven value fund the next use case, the next division, the next market."
+    }
   ],
   "philosophy": "Right expertise, faster value, measurable outcome, expansion.",
-  "notPhilosophy": "Not the capacity model: more people, more hours, more revenue.",
-  "caption": "Value-led AI services in one line: define the value, deliver it with specialists, make it measurable, then expand from it. The same operating philosophy as Build–Operate–Sustain and Land-and-Expand."
+  "notPhilosophy": "Not the capacity model: more people, more hours, more revenue."
 }
