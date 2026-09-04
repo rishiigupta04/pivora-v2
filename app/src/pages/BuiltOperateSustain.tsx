@@ -66,7 +66,7 @@ export default function BuiltOperateSustain() {
         </Reveal>
         {/* Figure 14-2 · Land and Expand — the account-level motion inside BOS */}
         <Reveal>
-          <div className="mt-12 border-t border-line pt-10">
+          <div id="land-and-expand" className="mt-12 scroll-mt-24 border-t border-line pt-10">
             <p className="eyebrow">Figure 14-2 · How growth continues</p>
             <h3 className="mt-3 max-w-3xl font-head text-2xl font-semibold leading-snug tracking-tight text-navy md:text-[28px]">
               Land and expand: the first win is the beginning.

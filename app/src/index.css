@@ -81,7 +81,68 @@
     @apply mx-auto w-full max-w-[1280px] px-6 md:px-8 lg:px-12;
   }
   .card {
-    @apply rounded-2xl border border-line bg-white;
+    @apply rounded-2xl border border-line bg-white shadow-e1;
+  }
+
+  /* --- Elevation system (§ Step 2). Three levels, nothing bespoke. --------- */
+  /* Resting card that lifts on hover. Motion of the lift is Framer's job;
+     the shadow step is CSS so it works on non-motion elements too. */
+  .card-lift {
+    @apply shadow-e1 transition-shadow duration-200 ease-out hover:shadow-e2;
+  }
+
+  /* --- Surface treatments -------------------------------------------------- */
+  /* Fine noise over dark navy so large navy fields read as material, not flat
+     fill. 1.6% white dots at 4px — invisible as texture, visible as depth. */
+  .grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: radial-gradient(circle at 1px 1px, rgb(255 255 255 / 0.055) 1px, transparent 0);
+    background-size: 4px 4px;
+  }
+
+  /* Frosted panel for surfaces that sit over navy or imagery. */
+  .glass {
+    background: rgb(255 255 255 / 0.07);
+    backdrop-filter: blur(14px) saturate(1.2);
+    -webkit-backdrop-filter: blur(14px) saturate(1.2);
+    border: 1px solid rgb(255 255 255 / 0.14);
+  }
+
+  /* Hairline that fades at both ends — used to separate sections without a
+     hard rule running edge to edge. */
+  .rule-fade {
+    @apply h-px w-full bg-line-fade;
+  }
+
+  /* --- Typographic contrast (§ Step 2) ------------------------------------- */
+  /* Section headline: larger and tighter than the old default. */
+  .h-display {
+    @apply font-head font-semibold leading-[1.06] tracking-[-0.02em];
+  }
+
+  /* The one place the eye lands in a section. Used where a paragraph was cut
+     down to its single load-bearing sentence. */
+  .pull-quote {
+    @apply font-head text-[26px] font-semibold leading-[1.22] tracking-[-0.02em] text-navy md:text-[34px] lg:text-[38px];
+    text-wrap: balance;
+  }
+  .pull-quote-on-dark {
+    @apply font-head text-[26px] font-semibold leading-[1.22] tracking-[-0.02em] text-white md:text-[34px] lg:text-[38px];
+    text-wrap: balance;
+  }
+
+  /* Big number. Stat blocks set the figure dramatically larger than its label. */
+  .stat-figure {
+    @apply font-display font-extrabold leading-none tracking-[-0.03em] text-navy;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Body copy gets more room to breathe than the Tailwind default. */
+  .prose-lede {
+    @apply text-[17px] leading-[1.75] text-greytext md:text-[18px];
   }
   .btn-primary {
     @apply inline-flex items-center justify-center gap-2 rounded-[10px] bg-gold px-6 py-3.5 font-display text-[14.5px] font-bold text-navy transition-colors hover:bg-gold-dark hover:text-white;
@@ -106,14 +167,20 @@
   }
 }
 
+/* Scroll reveals and figure motion are Framer Motion's job now, and the root
+   <MotionConfig reducedMotion="user"> handles the preference for all of them.
+   What remains here is the CSS side: transitions and keyframe animations
+   declared in stylesheets, which Framer does not see. */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
-  .reveal,
-  .figure-line {
-    opacity: 1 !important;
-    transform: none !important;
-    transition: none !important;
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }

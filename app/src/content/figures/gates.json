@@ -1,0 +1,96 @@
+{
+  "id": "figure-gates",
+  "sets": {
+    "choose-work": {
+      "id": "how-we-choose-work",
+      "title": "How Pivora Chooses Work",
+      "intro": "Three conditions. All three, or Pivora declines.",
+      "mode": "all-must-pass",
+      "gates": [
+        {
+          "label": "A differentiated platform",
+          "test": "Enterprise B2B, not a commodity product"
+        },
+        {
+          "label": "A material problem",
+          "test": "With a measurable outcome attached"
+        },
+        {
+          "label": "Executive commitment",
+          "test": "To the market, not exploratory interest"
+        }
+      ],
+      "outcome": {
+        "pass": "All three · we agree the outcome and how it is measured before work starts",
+        "fail": "Any one missing · we say so, and usually say who can help"
+      },
+      "caption": "You know before the first meeting whether Pivora will take the work, and on what terms."
+    },
+    "reference-policy": {
+      "id": "reference-policy-gates",
+      "title": "What May Be Published",
+      "intro": "Three conditions before any client claim appears on this site.",
+      "mode": "all-must-pass",
+      "gates": [
+        {
+          "label": "Named references",
+          "test": "Only with written client approval"
+        },
+        {
+          "label": "Published metrics",
+          "test": "Verifiable, and client-approved before publication"
+        },
+        {
+          "label": "Reference calls",
+          "test": "Offered on request, as a qualification step"
+        }
+      ],
+      "outcome": {
+        "pass": "All three met · the outcome is published",
+        "fail": "Not yet publishable · the operating cadence, deliverables and governance are shown instead"
+      },
+      "caption": "Nothing on this site cleared a lower bar than this one."
+    },
+    "client-commitments": {
+      "id": "client-commitments",
+      "title": "What Pivora Needs From You",
+      "intro": "Seven conditions for a pod to operate as part of your organisation.",
+      "mode": "checklist",
+      "gates": [
+        {
+          "label": "India time-zone support",
+          "test": "Key client personnel available during Indian business hours"
+        },
+        {
+          "label": "Training content",
+          "test": "Product documentation, sales kits and training materials"
+        },
+        {
+          "label": "Process training",
+          "test": "Your sales and presales methodology, CRM, approval workflows"
+        },
+        {
+          "label": "Sales-operations training",
+          "test": "Your sales-ops tools and reporting requirements"
+        },
+        {
+          "label": "Company email and access",
+          "test": "Official addresses and application access for pod members"
+        },
+        {
+          "label": "Office equipment",
+          "test": "Laptops and hardware to your standards, where mandated"
+        },
+        {
+          "label": "Operating expenses",
+          "test": "Pre-approved expenses handled and reimbursed"
+        }
+      ],
+      "outcome": {
+        "pass": "All seven in place · the pod operates inside your organisation, not alongside it",
+        "fail": ""
+      },
+      "caption": "A firm that states what it needs from a client is one that has done this before."
+    }
+  }
+}

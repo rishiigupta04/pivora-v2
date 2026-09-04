@@ -71,6 +71,24 @@ module.exports = {
       boxShadow: {
         xs: "0 1px 2px 0 rgb(0 0 0 / 0.05)",
         card: "0 2px 16px -6px rgb(11 31 58 / 0.08)",
+        // Elevation system (three levels, reused everywhere — no one-off shadows).
+        // e1 resting card · e2 hovered card · e3 active/expanded card.
+        e1: "0 1px 2px 0 rgb(11 31 58 / 0.04), 0 4px 14px -8px rgb(11 31 58 / 0.10)",
+        e2: "0 2px 4px 0 rgb(11 31 58 / 0.05), 0 14px 32px -14px rgb(11 31 58 / 0.20)",
+        e3: "0 4px 8px 0 rgb(11 31 58 / 0.06), 0 26px 56px -22px rgb(11 31 58 / 0.30)",
+        // Dark-surface variants: shadow reads as a lifted edge, not a drop shadow.
+        "e2-dark": "0 2px 4px 0 rgb(0 0 0 / 0.28), 0 16px 36px -16px rgb(0 0 0 / 0.50)",
+        "e3-dark": "0 4px 10px 0 rgb(0 0 0 / 0.32), 0 30px 64px -24px rgb(0 0 0 / 0.62)",
+      },
+      backgroundImage: {
+        // Brand gradients — richness comes from tint and shade inside navy/gold,
+        // never from a new hue (§21).
+        "navy-depth": "linear-gradient(158deg, #0B1F3A 0%, #12305A 52%, #071628 100%)",
+        "navy-rise": "linear-gradient(180deg, #12305A 0%, #0B1F3A 100%)",
+        // Sheen, not shade: the darkest stop stays at 6.2:1 against navy so
+        // navy text keeps AA on every part of a gold surface.
+        "gold-sheen": "linear-gradient(135deg, #E0C289 0%, #C8A15A 55%, #C09A55 100%)",
+        "line-fade": "linear-gradient(90deg, transparent 0%, #E6EAF0 12%, #E6EAF0 88%, transparent 100%)",
       },
       keyframes: {
         "accordion-down": {

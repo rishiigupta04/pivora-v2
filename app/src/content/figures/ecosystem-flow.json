@@ -1,0 +1,11 @@
+{
+  "id": "ecosystem-flow",
+  "title": "The Ecosystem Flow",
+  "nodes": [
+    { "label": "Platform OEM", "role": "hub-input" },
+    { "label": "Pivora", "role": "hub" },
+    { "label": "Enterprise / GCC's / GSI's", "role": "value" },
+    { "label": "Global Market", "role": "outcome" }
+  ],
+  "caption": "A win on one track compounds on the others, because the same relationships, references and mandates move across all three."
+}

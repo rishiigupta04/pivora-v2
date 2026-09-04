@@ -7,15 +7,41 @@
       "icon": "building",
       "segment": "India Enterprise's",
       "role": "The demand engine",
-      "headline": { "stat": "US$176.4B", "label": "India IT spending in 2026 — up 10.6% year on year" },
-      "trend": { "points": [159.5, 176.4, 203], "labels": ["2025", "2026", "2028F"] },
+      "headline": {
+        "stat": "US$176.4B",
+        "label": "India IT spending in 2026 — up 10.6% year on year"
+      },
+      "trend": {
+        "points": [
+          159.5,
+          176.4,
+          203
+        ],
+        "labels": [
+          "2025",
+          "2026",
+          "2028F"
+        ]
+      },
       "what": "India's large domestic corporates — and the India operations of global enterprises — buying enterprise technology at scale. This is where platform value is proven, where committees decide, and where references are born.",
       "why": "India is the world's fourth-largest economy at roughly US$4.5 trillion (IMF, October 2025), and its enterprises are compounding technology spend at double-digit rates. Enterprise buying here is committee-led and relationship-led — trust, credibility and patience decide outcomes — which is exactly the motion Pivora is built to run.",
       "today": [
-        { "stat": "US$176.4B", "note": "India IT spending, 2026 (+10.6%) — Gartner, Nov 2025" },
-        { "stat": "US$24.7B", "note": "Software spending, 2026 (+17.6%) — Gartner" },
-        { "stat": "US$35.4B", "note": "IT services spending, 2026 (+11.1%) — Gartner" },
-        { "stat": "~US$4.5T", "note": "Fourth-largest economy — IMF, Oct 2025" }
+        {
+          "stat": "US$176.4B",
+          "note": "India IT spending, 2026 (+10.6%) — Gartner, Nov 2025"
+        },
+        {
+          "stat": "US$24.7B",
+          "note": "Software spending, 2026 (+17.6%) — Gartner"
+        },
+        {
+          "stat": "US$35.4B",
+          "note": "IT services spending, 2026 (+11.1%) — Gartner"
+        },
+        {
+          "stat": "~US$4.5T",
+          "note": "Fourth-largest economy — IMF, Oct 2025"
+        }
       ],
       "outlook": [
         "India IT spending is projected to reach roughly US$203B by 2028 — a 10.5% five-year CAGR, among the fastest of any major economy (Gartner IT Spending Forecast, India).",
@@ -23,7 +49,10 @@
         "Enterprise software is the fastest-compounding line — AI-enabled applications are becoming the default purchase, not the exception (Gartner, November 2025)."
       ],
       "pivora": "How Pivora works this GTM: named-account architecture, trust-led executive access, and lighthouse wins engineered to become references.",
-      "link": { "label": "See market entry & GTM", "to": "/what-we-solve/market-entry-gtm" },
+      "link": {
+        "label": "See market entry & GTM",
+        "to": "/what-we-solve/market-entry-gtm"
+      },
       "sources": "Gartner, India IT Spending Forecast (November 2025); Gartner IT Spending Forecast, India, 2Q24 update; IMF World Economic Outlook (October 2025)."
     },
     {
@@ -31,15 +60,41 @@
       "icon": "people",
       "segment": "GCC's",
       "role": "The global capability engine",
-      "headline": { "stat": "2,117", "label": "GCC's in India, FY2026 — and still accelerating" },
-      "trend": { "points": [1700, 2117, 2400], "labels": ["FY2024", "FY2026", "2030F"] },
+      "headline": {
+        "stat": "2,117",
+        "label": "GCC's in India, FY2026 — and still accelerating"
+      },
+      "trend": {
+        "points": [
+          1700,
+          2117,
+          2400
+        ],
+        "labels": [
+          "FY2024",
+          "FY2026",
+          "2030F"
+        ]
+      },
       "what": "Global Capability Centres: the captive centres global enterprises run in India. They are no longer back offices — they hold product, portfolio and AI mandates for the parent enterprise, and they buy like headquarters.",
       "why": "A win inside a GCC's is never a domestic win. 96% of GCC's set up after FY2021 launched with a product or portfolio mandate, and over 1,200 already run embedded AI/ML capability (Nasscom–Zinnov, May 2026). One India proof replicates into the parent's global estate — this is how India coverage becomes global coverage.",
       "today": [
-        { "stat": "2,117", "note": "GCC's across 3,728 units, FY2026 — Nasscom–Zinnov" },
-        { "stat": "US$98.4B", "note": "GCC revenue, FY2026 — Nasscom–Zinnov" },
-        { "stat": "2.36M", "note": "Professionals employed — Nasscom–Zinnov" },
-        { "stat": "506", "note": "Forbes Global 2000 companies with India GCC's" }
+        {
+          "stat": "2,117",
+          "note": "GCC's across 3,728 units, FY2026 — Nasscom–Zinnov"
+        },
+        {
+          "stat": "US$98.4B",
+          "note": "GCC revenue, FY2026 — Nasscom–Zinnov"
+        },
+        {
+          "stat": "2.36M",
+          "note": "Professionals employed — Nasscom–Zinnov"
+        },
+        {
+          "stat": "506",
+          "note": "Forbes Global 2000 companies with India GCC's"
+        }
       ],
       "outlook": [
         "The ecosystem is on course to cross US$100B in annual revenue by 2030, with around 2,400 centres employing up to 3.5 million professionals (Nasscom).",
@@ -47,7 +102,10 @@
         "The next wave is mid-market global companies and new sectors — retail, healthcare, pharma — setting up their first India centres (Nasscom–Zinnov)."
       ],
       "pivora": "How Pivora works this GTM: GCC opportunity mapping, mandate-aligned propositions, and wins engineered from day one to replicate globally.",
-      "link": { "label": "See GCC & GSI growth", "to": "/what-we-solve/gcc-gsi-growth" },
+      "link": {
+        "label": "See GCC & GSI growth",
+        "to": "/what-we-solve/gcc-gsi-growth"
+      },
       "sources": "Nasscom–Zinnov, India GCC Landscape 2026 (May 2026); Nasscom, Strategic Review 2026; Nasscom, India GCC Landscape — The 5-Year Journey."
     },
     {
@@ -55,15 +113,41 @@
       "icon": "globe",
       "segment": "GSI's",
       "role": "The global delivery engine",
-      "headline": { "stat": "US$315B", "label": "India technology industry revenue, FY2026" },
-      "trend": { "points": [283, 315, 500], "labels": ["FY2025", "FY2026", "2030F"] },
+      "headline": {
+        "stat": "US$315B",
+        "label": "India technology industry revenue, FY2026"
+      },
+      "trend": {
+        "points": [
+          283,
+          315,
+          500
+        ],
+        "labels": [
+          "FY2025",
+          "FY2026",
+          "2030F"
+        ]
+      },
       "what": "Global System Integrators: the Tier-1 and Tier-2 service providers headquartered out of India — TCS, Infosys, Wipro, HCLTech, Tech Mahindra and the Tier-2 bench — who carry platforms into thousands of enterprise accounts worldwide.",
       "why": "A GSI's alliance is the highest-leverage route an enterprise platform can take from India: one activated partnership multiplies into every account the integrator serves. Most platforms sign the agreement and stop there. Almost none build the joint pipeline, the enabled teams and the co-sell cadence that turn a logo into revenue.",
       "today": [
-        { "stat": "US$315B", "note": "Industry revenue, FY2026 (+6.1%) — Nasscom Strategic Review 2026" },
-        { "stat": "US$246B", "note": "Exports, FY2026 — Nasscom" },
-        { "stat": "~6M", "note": "Direct professionals employed — Nasscom" },
-        { "stat": "US$10–12B", "note": "AI-led revenue already, FY2026 — Nasscom" }
+        {
+          "stat": "US$315B",
+          "note": "Industry revenue, FY2026 (+6.1%) — Nasscom Strategic Review 2026"
+        },
+        {
+          "stat": "US$246B",
+          "note": "Exports, FY2026 — Nasscom"
+        },
+        {
+          "stat": "~6M",
+          "note": "Direct professionals employed — Nasscom"
+        },
+        {
+          "stat": "US$10–12B",
+          "note": "AI-led revenue already, FY2026 — Nasscom"
+        }
       ],
       "outlook": [
         "Nasscom projects India's technology industry to roughly double to US$500B by 2030 — with GSI's carrying that growth into global enterprise accounts.",
@@ -71,8 +155,12 @@
         "ER&D and AI-embedded services are the fastest-growing pillars — exactly the work GSI's need differentiated platform partners for (Nasscom Strategic Review 2026)."
       ],
       "pivora": "How Pivora works this GTM: partner proposition design, alliance activation and joint account motions — signed logos converted into pipeline.",
-      "link": { "label": "See the India GSI's landscape", "to": "/what-we-solve/gcc-gsi-growth#gsi-landscape" },
+      "link": {
+        "label": "See the India GSI's landscape",
+        "to": "/what-we-solve/gcc-gsi-growth#gsi-landscape"
+      },
       "sources": "Nasscom, Technology Sector Strategic Review 2026 (February 2026); Nasscom Strategic Review 2023 (US$500B-by-2030 trajectory); Nasscom Global End User CXO Survey, 2026."
     }
-  ]
+  ],
+  "caption": "Whichever of the three you sell to, the same India base carries the other two."
 }
